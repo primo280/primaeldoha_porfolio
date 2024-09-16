@@ -24,7 +24,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Institut de Formation et de Recherche en Informatique (IFRI)</li>
-        <li>Université d'Abomey Calavi</li>
+        <li>Université d&aposAbomey Calavi</li>
       </ul>
     ),
   },
@@ -53,11 +53,11 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/about-image.png" width={500} alt="hero images" height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Apropos</h2>
           <p className="text-base lg:text-lg">
-            « Je suis un développeur web fullstack passionné par la création d'applications web interactives et réactives. J'ai de l'expérience avec JavaScript, React, Redux, Node.js, Express, PostgreSQL, Sequelize, HTML, CSS, et Git. J'apprends rapidement et je cherche toujours à élargir mes connaissances et mes compétences. Je suis un joueur d'équipe et je suis enthousiaste à l'idée de travailler avec d'autres pour créer des applications incroyables. »</p>
+            « Je suis un développeur web fullstack passionné par la création d&apos;applications web interactives et réactives. J&apos;ai de l&apos;expérience avec JavaScript, React, Redux, Node.js,Laravel,Django, Express, PostgreSQL, Sequelize, HTML, CSS, et Git. J&apos;apprends rapidement et je cherche toujours à élargir mes connaissances et mes compétences. Je suis un joueur d&apos;équipe et je suis enthousiaste à l&apos;idée de travailler avec d&apos;autres pour créer des applications incroyables. »</p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
